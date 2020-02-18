@@ -51,14 +51,14 @@ namespace WindowsFormsApplication1
             
             char delimiter =' ';
             System.IO.StreamReader file = new System.IO.StreamReader(fileName);
-            System.IO.StreamWriter fileWriter = new StreamWriter("Written file.txt");
+            //System.IO.StreamWriter fileWriter = new StreamWriter("Written file.txt");
             
             while ((line = file.ReadLine()) != null)
             {
                 if (counter == 0)
                 {
                     SetRichTextDestinationAdd("100\n");
-                    fileWriter.WriteLine("100");
+                    //fileWriter.WriteLine("100");
                 }
                 if (counter > 0)
                 {
@@ -69,13 +69,13 @@ namespace WindowsFormsApplication1
                     resultLine += values[Imaginary] + " ";
                     resultLine += values[Frequency];
 
-                    fileWriter.WriteLine(resultLine);
+                    //fileWriter.WriteLine(resultLine);
 
                     SetRichTextDestinationAdd(resultLine+"\n");
                 }
                 counter++;
             }
-            fileWriter.Close();
+            //fileWriter.Close();
         }
 
         private void btnReadFile_Click(object sender, EventArgs e)

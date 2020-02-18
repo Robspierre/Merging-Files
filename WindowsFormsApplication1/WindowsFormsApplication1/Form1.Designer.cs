@@ -104,8 +104,12 @@
             // 
             // saveFileDialog1
             // 
+            
+        // DefaultExt is only used when "All files" is selected from 
+        // the filter box and no extension is specified by the user
             this.saveFileDialog1.DefaultExt = "txt";
-            this.saveFileDialog1.Filter = "\"txt files (*.txt)|*.txt|All files (*.*)|*.*\"";
+            this.saveFileDialog1.FileName = "myText";
+            this.saveFileDialog1.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
             this.saveFileDialog1.RestoreDirectory = true;
             this.saveFileDialog1.Title = "Save Text File";
             // 
