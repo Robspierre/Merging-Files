@@ -1,0 +1,8 @@
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\RealImaginaryFrequency.exe.config
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\RealImaginaryFrequency.exe
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\RealImaginaryFrequency.pdb
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\RealImaginaryFrequency.Properties.Resources.resources
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\RealImaginaryFrequency.csproj.GenerateResource.Cache
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\RealImaginaryFrequency.exe
+C:\Users\Robert D McI\Source\Repos\Merging-Files\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\RealImaginaryFrequency.pdb
