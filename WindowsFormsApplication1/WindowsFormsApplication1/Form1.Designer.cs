@@ -35,6 +35,7 @@
             this.btnReadFile = new System.Windows.Forms.Button();
             this.btnSaveFile = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.SuspendLayout();
             // 
             // richTextPreview
@@ -93,12 +94,20 @@
             this.btnSaveFile.TabIndex = 5;
             this.btnSaveFile.Text = "Save File";
             this.btnSaveFile.UseVisualStyleBackColor = true;
+            this.btnSaveFile.Click += new System.EventHandler(this.btnSaveFile_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.DefaultExt = "txt";
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.InitialDirectory = "C:\\";
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = "txt";
+            this.saveFileDialog1.Filter = "\"txt files (*.txt)|*.txt|All files (*.*)|*.*\"";
+            this.saveFileDialog1.RestoreDirectory = true;
+            this.saveFileDialog1.Title = "Save Text File";
             // 
             // Form1
             // 
@@ -112,7 +121,7 @@
             this.Controls.Add(this.richTextDestination);
             this.Controls.Add(this.richTextPreview);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Organisation for Real, Imaginary and Frequency";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,6 +136,7 @@
         private System.Windows.Forms.Button btnReadFile;
         private System.Windows.Forms.Button btnSaveFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

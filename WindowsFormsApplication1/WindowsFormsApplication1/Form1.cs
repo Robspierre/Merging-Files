@@ -51,7 +51,7 @@ namespace WindowsFormsApplication1
             
             char delimiter =' ';
             System.IO.StreamReader file = new System.IO.StreamReader(fileName);
-            System.IO.StreamWriter fileWriter = new StreamWriter("C:/Users/Robert D McI/Source/Repos/Merging-Files/WindowsFormsApplication1/WindowsFormsApplication1/testFile.txt");
+            System.IO.StreamWriter fileWriter = new StreamWriter("Written file.txt");
             
             while ((line = file.ReadLine()) != null)
             {
@@ -95,6 +95,16 @@ namespace WindowsFormsApplication1
                     $"Details:\n\n{ex.StackTrace}");
                 }
             }
+        }
+
+        private void btnSaveFile_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+			if(saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                File.WriteAllText(saveFileDialog.FileName, richTextDestination.Text);
+            }
+				
         }
     }
 }
