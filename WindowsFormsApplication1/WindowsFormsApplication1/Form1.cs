@@ -64,7 +64,7 @@ namespace WindowsFormsApplication1
                 {
                     resultLine = "";
                     string[] values = line.Split(delimiter);
-                    resultLine += counter + " ";
+                    //resultLine += counter + " ";
                     resultLine += values[Real] + " ";
                     resultLine += values[Imaginary] + " ";
                     resultLine += values[Frequency];
